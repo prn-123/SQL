@@ -1,0 +1,1 @@
+select CG.GroupName,D.DistrictName,C.contactName,C.CurrentLocation,C.Location from ContactGroups CG, Contacts C,Districts D where CG.GroupId=C.GroupId and CG.DistrictId=D.DistrictId 
